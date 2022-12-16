@@ -32,7 +32,7 @@ main {
   align-items: center;
 }
 
-article {
+.card {
   width: 320px;
   background-color: var(--white);
   border-radius: 5px;
@@ -43,7 +43,7 @@ article {
   box-shadow: 0px 10px 20px hsla(0, 0%, 0%, 0.1);
 }
 
-section {
+.card-section {
   width: 100%;
   min-height: 200px;
   padding: 1.5rem;
@@ -74,7 +74,7 @@ section {
   justify-content: space-between;
 }
 
-.subscription-title, .wu-title {
+.subscription-title, .why-us-title {
   font-size: 1.2rem;
   font-weight: 400;
   margin-bottom: 1.25rem;
@@ -89,7 +89,7 @@ section {
 .subscription-price p span {
   color: var(--white);
   font-size: 2rem;
-  margin-right: 1rem;
+  margin-right: 0.5ch;
 }
 
 .subscription-text {
@@ -109,16 +109,16 @@ section {
 }
 
 
-.wu {
+.why-us {
   background-color: var(--bright-cyan);
   color: var(--white);
 }
 
-.wu-list {
+.why-us-list {
   list-style: none;
 }
 
-.wu-list-item {
+.why-us-list-item {
   color: var(--gray);
   font-size: 0.9rem;
   margin-top: 0.25rem;
@@ -130,7 +130,7 @@ footer {
 }
 
 @media (min-width: 1024px){
-  article {
+  .card {
     width: 640px;
     background-color: var(--white);
     border-radius: 5px;
@@ -141,7 +141,7 @@ footer {
     box-shadow: 0px 10px 20px hsla(0, 0%, 0%, 0.15);
   }
 
-  section {
+  .card-section {
     padding: 2.5rem;
   }
 
@@ -155,7 +155,7 @@ footer {
     grid-row: 2 / 3;
   }
 
-  .wu {
+  .why-us {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
   }
